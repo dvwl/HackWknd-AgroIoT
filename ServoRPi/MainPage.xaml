@@ -1,0 +1,13 @@
+﻿<Page
+    x:Class="ServoRPi.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ServoRPi"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock FontSize="40" TextWrapping="Wrap" Text="ServoRPi uses Software Pulse Width Modulation (PWM) to controlling a Servo motor. A simple example of using NuGET library: Microsoft.IoT.Devices."/>
+    </Grid>
+</Page>
