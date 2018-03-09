@@ -16,7 +16,7 @@ namespace MoodRPi
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        private static string openweathermapapikey = "6c2710a83700dc8b2be058a4156a5099";
+        private static string openweathermapapikey = "[insert openweathermap api key here]";
         private static string url = $"http://api.openweathermap.org/data/2.5/weather?q=Kuching&appid=" + openweathermapapikey;
         private const int RED_LED_PIN = 18;
         private const int GREEN_LED_PIN = 27;
@@ -114,7 +114,7 @@ namespace MoodRPi
                 {
                     switch (weather.weather[0].main.ToLowerInvariant())
                     {
-                        case "tunderstorm":
+                        case "thunderstorm":
                             // yellow
                             redLedPin.Write(GpioPinValue.High);
                             greenLedPin.Write(GpioPinValue.High);
