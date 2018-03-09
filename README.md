@@ -11,14 +11,14 @@ These demo assumes you know the basic setup (running Windows 10 IoT Core on Rasp
 This is a simple 'Get Started' with Raspberry Pi 3 and Windows 10 IoT Core.
 Basically, a LED will light up, connected to GPIO 27, when a tactile switch, connected to GPIO 22, is pressed.
 
-![Image of HelloRPi Circuit Diagram](https://github.com/dvwl/Circuit-Diagram/HelloRPi.png)
+![Image of HelloRPi Circuit Diagram](https://github.com/dvwl/HackWknd-AgroIoT/blob/master/Circuit-Diagram/HelloRPi.png)
 
 
 ## ServoRPi
 This is a demo on how to use software pulse width modulation to drive a servomotor
 This sample uses the Microsoft.IoT.Devices NuGet plugin.
 
-![Image of ServoRPi Circuit Diagram](https://github.com/dvwl/Circuit-Diagram/ServoRPi.png)
+![Image of ServoRPi Circuit Diagram](https://github.com/dvwl/HackWknd-AgroIoT/blob/master/Circuit-Diagram/ServoRPi.png)
 
 
 ## MoodRPi
@@ -28,4 +28,4 @@ Weather data is then interpretted using Newtonsoft.JSON NuGET plugin to a Weathe
 The RGB LED then lights up as per the weather condition.
 
 
-![Image of MoodRPi Circuit Diagram](https://github.com/dvwl/Circuit-Diagram/MoodRPi.png)
+![Image of MoodRPi Circuit Diagram](https://github.com/dvwl/HackWknd-AgroIoT/blob/master/Circuit-Diagram/MoodRPi.png)
